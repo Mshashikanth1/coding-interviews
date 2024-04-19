@@ -38,7 +38,7 @@ public class Nielson {
                 frqhMap.put(i, (frqhMap.containsKey(i) ? frqhMap.get(i) : 0) +1 );
             }
 
-//            System.out.println(frqhMap);
+ //            System.out.println(frqhMap);
              for(int i : arr){
                 if(frqhMap.get(i)==1) return  i;
             }
