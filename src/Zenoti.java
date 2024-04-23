@@ -155,9 +155,14 @@ public class Zenoti {
     * select students_id in attendance_table left join
     * lecture_table on attendance_table.lecture_id =lecture_table
     * )
-    * order by studets.name
+    * order by students.name
     * */
 
 
-    /* [22/04/2024] :Interview on hacer earth*/
+    /* [22/04/2024] :Interview on hacker earth*/
+    public   static void sortWords(String paragraph){
+        String[] words=paragraph.split(" ");
+        Arrays.sort(words);
+        System.out.println(Arrays.toString(words));
+    }
 }
