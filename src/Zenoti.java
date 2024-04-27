@@ -160,9 +160,42 @@ public class Zenoti {
 
 
     /* [22/04/2024] :Interview on hacker earth*/
-    public   static void sortWords(String paragraph){
+    public static void sortWords(String paragraph){
         String[] words=paragraph.split(" ");
         Arrays.sort(words);
         System.out.println(Arrays.toString(words));
     }
+
+    /*[24/04/2024] : Interview on hacker earth*/
+    public void findFirstTwoMax(int[] arr){
+
+        /*constraints:  without sorting  array, without using extra loops */
+        int fMax=Integer.MIN_VALUE, sMax=Integer.MIN_VALUE;
+
+        for(int i: arr){
+            if(i>fMax){
+                sMax=fMax;
+                fMax=i;
+            }else sMax=Math.max(sMax,i);
+        }
+        System.out.println(fMax +" , "+sMax);
+    }
+    public boolean isAnagram(String s, String t){
+        int[] asciiArr=new int[256];
+
+        /*constraints: without using extra loops & extra hashmaps*/
+        if(s.length()!=t.length()) return false;
+
+        for(int i=0; i<s.length(); i++) {
+            asciiArr[s.charAt(i)]++;
+            asciiArr[t.charAt(i)]--;
+        }
+
+        for(int i:asciiArr)
+             if(i>0) return false;
+
+        return true;
+    }
+
+    /*sql*/
 }

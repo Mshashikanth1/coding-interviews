@@ -27,13 +27,13 @@ public class Nielson {
 
     public  static  int firstNonRepeating(int[] arr){
         /* it maintains the order*/
-           Map<Integer,Integer> frqhMap=new HashMap<>(); /* cpu intenst */
+           Map<Integer,Integer> frqhMap=new HashMap<>(); /* cpu intensive */
 
         person[] pAtt= new person[10];
 
 
             int n=arr.length;
-           /*iterating over the array and hashify the arra with freq O(log(0)*/
+           /*iterating over the array and hashify the array with freq O(log(0)*/
             for(int i : arr){
                 frqhMap.put(i, (frqhMap.containsKey(i) ? frqhMap.get(i) : 0) +1 );
             }
