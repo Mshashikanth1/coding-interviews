@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-@RestController
+//@RestController
 public class morningstar {
 
     /*employees , with shashi*/
@@ -12,8 +12,10 @@ public class morningstar {
         private  String name;
     }
 
-    @GetMapping("/get/{name} ?val= val1& var2=val2")
-    public void function(@PathVariable Stirng name){
+//    @GetMapping("/get/{name} ?val= val1& var2=val2")
+    public void function(
+//            @PathVariable
+            String name){
 
         List<employees> employees= new ArrayList<>();
 
@@ -30,6 +32,9 @@ public class morningstar {
      @service
 
      abstract vs interfaces
+
+     functional interfaces --> not answered
+
      oops
      object o
      **/
@@ -37,7 +42,7 @@ public class morningstar {
 }
 
 
-/* [ mayur told to concetrate on these ]
+/* [ mayor told to concentrate on these ]
 * Java Basics:
 What is the difference between JDK, JRE, and JVM?
 JDK (Java Development Kit): It's a software development kit that includes tools for developing Java applications. It contains JRE, compiler, debugger, etc.
