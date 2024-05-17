@@ -40,6 +40,24 @@ public class morningstar {
      object o
      **/
 
+    /*
+    *  [Interview 2 :  name starts with g manager]
+    *  introduce your self?
+    *  what is tech stack?
+    *  what is your  experience with postgres?
+    *  what is your experience with spring boot?
+    *  what is  your experience with python?
+    *  what is your experience with gcp?
+    *  what is your experience e with the deployments?
+    *  what is your experience REST api's?
+    *  are you serving notice period?
+    *  what are your salary expectations?
+    *  why do you want to quit the jsw one platforms?
+    *  why do you quit the tvarana ?
+    *  what is the recent project you have worked on ?
+    *
+    * */
+
 }
 
 

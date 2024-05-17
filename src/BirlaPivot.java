@@ -3,7 +3,7 @@ import java.util.List;
 
 public class BirlaPivot {
 
-    /*software engineer 1 role: Interview 1 : interviewer : yash mittal Yash Mittal <yash.mittal@adityabirla.com>
+    /* software engineer 1 role: Interview 1 : interviewer : yash mittal Yash Mittal <yash.mittal@adityabirla.com>
 
      Namrata Singh <namrata.singh-v@adityabirla.com>
      cc:	Anubhuti Kala <anubhuti.kala@adityabirla.com>,
