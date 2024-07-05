@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class egenAi { static class Account {
+public class EgenAi { static class Account {
     private String timestamp;
     private String accountId;
     private Long balance;

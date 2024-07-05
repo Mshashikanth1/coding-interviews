@@ -74,5 +74,7 @@ Question 2: Design Kafka,RabbitMQ, GCP Pub Sub System :
      *
      *  step-way , rollback , commit,
      *  queue = []
-    * */
+    *
+    12.5 , 11
+    */
 }

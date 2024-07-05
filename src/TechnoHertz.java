@@ -1,4 +1,4 @@
-public class technoHertz {
+public class TechnoHertz {
 
     /*
     * [Ashay Chavan : 14/tue/2024]

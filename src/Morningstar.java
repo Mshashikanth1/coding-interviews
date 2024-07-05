@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 /*interviewer  : kalviya, mayur*/
 //@RestController
-public class morningstar {
+public class Morningstar {
 
     /*employees , with shashi*/
 
@@ -112,4 +112,6 @@ Simplified dependency management, auto-configuration, embedded HTTP server suppo
 *
 * Explain the Stream API in Java 8.
   The Stream API is used to process collections of objects in a functional way. It provides methods to perform aggregate operations on collections such as filter, map, reduce, etc.
-    * */
+
+    * 10.5, 13.4
+    * * */

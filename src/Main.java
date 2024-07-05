@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 //      Zenoti.sortWords("contributed to netsuite development and curated enough");
-        egenAi g=new egenAi();
+        EgenAi g=new EgenAi();
         System.out.println(Arrays.toString(g.solution(new String[][]{{"CREATE_ACCOUNT","1","account1"},
                 {"CREATE_ACCOUNT","2","account2"},
                 {"CREATE_ACCOUNT","3","account3"},

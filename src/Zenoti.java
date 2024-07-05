@@ -13,7 +13,7 @@ public class Zenoti {
         public static void main1(String args[] ) throws Exception {
             Scanner sc=new Scanner(System.in);
             int n=sc.nextInt();
-            while(n>0){
+            while(n > 0){
                 String str=sc.next();
                 Map<Character,Integer> fhMap=new LinkedHashMap<>();
 
