@@ -63,6 +63,12 @@ public class EdraLabs {
 *       3. if you are about to design the project from scratch what will be your approach
 *       4. if the integer range in  a new programming language is only 0 to 99 , then how will you
 *           manage the arthritic operations of 4 digit numbers
+	    5. how payment operations work in your system.
+	 	6. how to manage the shipments if we are not flow some exisiting.
+	 	7. how do you scale your systems
+	 	8. how can you make sure your are working 24/7
+	 	9. how do you debug your programmes
+	 	10. how to make this efficiently
 *
 *
 *

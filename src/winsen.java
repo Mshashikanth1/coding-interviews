@@ -104,4 +104,19 @@ public class winsen {
       return j == n;
 
     }
+
+
+    /**
+    *  what is interface?
+     * what is difference between hashmap & concurrent hashmap
+     * what is functional interface
+     * what is SOLID principles
+     * what are Design patterns
+     * what are error handling methods
+     * what is method overloading & overriding
+     * what is abstraction & encapsulation
+     * what is horizontal scaling & vertical scaling
+     * how to make a class immutable
+     * what are immutable classes other than String, all wrapper class are immutable for example. Integer, Double,Float, Character etc..
+    * */
     }
