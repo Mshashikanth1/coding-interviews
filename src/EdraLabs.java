@@ -1,7 +1,7 @@
 public class EdraLabs {
 
     /**
-    * first round is a maching coding round:
+    * first round is a machine coding round:
     *
     *
     * Design a server capable of generating, assigning, and managing API keys with specific functionalities.
